@@ -1,25 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import "./App.css"; 
+import FormComponent from "./FormComponent";
+import ComicComponent from "./ComicComponent";
 
-function App() {
+  function App() {
+    const [imageUrls, setImageUrls] = useState({
+      1: "radial-gradient(circle, white, lightgray)",
+      2: "radial-gradient(circle, white, lightgray)",
+      3: "radial-gradient(circle, white, lightgray)",
+      4: "radial-gradient(circle, white, lightgray)",
+      5: "radial-gradient(circle, white, lightgray)",
+      6: "radial-gradient(circle, white, lightgray)",
+      7: "radial-gradient(circle, white, lightgray)",
+      8: "radial-gradient(circle, white, lightgray)",
+      9: "radial-gradient(circle, white, lightgray)",
+      10: "radial-gradient(circle, white, lightgray)",
+    });
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <FormComponent setImageUrls={setImageUrls} imageUrls={imageUrls} />
+      <ComicComponent imageUrls={imageUrls} />
     </div>
   );
 }
-
 export default App;
