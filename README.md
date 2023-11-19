@@ -19,6 +19,8 @@ You may also see any lint errors in the console.
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 ![Screenshot (344)](https://github.com/vakanksha2002/My-comic-App/assets/105928464/1df7c11e-3094-4446-8284-d69dfd766a20)
+![Screenshot (345)](https://github.com/vakanksha2002/My-comic-App/assets/105928464/93b7a2c7-be66-4840-b984-acbd132c12f7)
+![Screenshot (346)](https://github.com/vakanksha2002/My-comic-App/assets/105928464/19fd5161-bdba-4bff-a93e-a6ef12202f30)
 
 ### `npm run build`
 
